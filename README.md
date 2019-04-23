@@ -1,8 +1,10 @@
-# ESP8266 433MHz-Receiver sending data via MQTT (and DS18B20 temperature value)
+# ESP8266 433MHz-Receiver sending data and DS18B20 temp via MQTT
+
 Arduino project to send messages to predefined topics based on reveiced 433MHz data from door/window sensors.
 
-Version: 1.0.0 (2019-04-20)
-Author: Link-Technologies - [Dipl.-Inform. (FH) Andreas Link](http://www.AndreasLink.de)
+**Version:** 1.0.0 (2019-04-20)
+
+**Author:** Link-Technologies - [Dipl.-Inform. (FH) Andreas Link](http://www.AndreasLink.de)
 
 
 ## Arduino ESP8266 433MHz-Receiver
@@ -19,7 +21,7 @@ By using the [Link-Tech Sensor MQTT library](https://github.com/andreaslink-de/L
 - Adjust MQTT broker IP
 - Adjust MQTT base topic as well as temperature topic if used
 
-###Used libs:
+### Used libs:
 - ESP8266WiFi.h
 - RCSwitch.h
 - PubSubClient.h
@@ -31,5 +33,5 @@ By using the [Link-Tech Sensor MQTT library](https://github.com/andreaslink-de/L
 - Sketch uses 294988 Bytes
 - Global variables use 33704 Bytes (using preset of 100 possible sensors) of dynamic memory
 
-**More documentation to come**
+**_More documentation to come_**
 
