@@ -3,7 +3,6 @@
 Arduino project to send messages to predefined topics based on reveiced 433MHz data from door/window sensors.
 
 **Version:** 1.0.0 (2019-04-20)
-
 **Author:** Link-Technologies - [Dipl.-Inform. (FH) Andreas Link](http://www.AndreasLink.de)
 
 
